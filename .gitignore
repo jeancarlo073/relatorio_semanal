@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+venv/
+env/
+*.sqlite3
+*.log
+
+# Django
+media/
+static/ # Não o staticfiles/ mas se tiver uma pasta static/ na raiz do projeto
+.DS_Store
+.idea/ # Para usuários de PyCharm
+*.sublime-project
+*.sublime-workspace
